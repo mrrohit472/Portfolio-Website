@@ -114,17 +114,15 @@ textarea {
     background-color: black;
     color:rgb(229, 157, 68);
 }
-.social-buttons:hover{
+.social-buttons:hover , .social-buttons:hover > a{
     color: rgb(0, 0, 0);
     background-color: rgb(229, 157, 68);
 }
-.social-buttons-a{
+.social-buttons a{
     text-decoration: none;
-    color:rgb(229, 157, 68);
-}
-.social-buttons-a:hover{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+    height:100%;
+    width:100%;
+    color:rgb(229, 157, 68);
 }
 
 button {
