@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Your Name</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add any CSS styles or external stylesheets here -->
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html" ><button class="navhome"><b>Home</b></button></a></li>
+            <li><a href="about.html"><button><b>About</b></button></a></li>
+            <li><a href="skills.html"><button><b>Skills</b></button></a></li>
+            <li><a href="project.html" ><button><b>Projects</b></button></a></li>
+            <li><a href="contact.html" ><button><b>Contact</b></button></a></li>
+            <li><button class="navname"><b>Rohit Pawar</b></button></li>
+        </ul>
+
+    </div>
+
+    <!-- Main content section -->
+    <section>
+        <h1><button style="text-decoration: none;
+            margin-right: 50px;
+            background-color: black;
+            color:rgb(229, 157, 68);"><b>Contact</b></button></h1>
+        <p>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            You can reach out to me through the form below or by using the provided email address.
+        </p>
+
+        <!-- Contact Form -->
+        <form action="contactformbackend.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>Contact: rohitspp472@gmail.com</p>
+        <!-- Add links to your social media profiles if you want -->
+    </footer>
+</body>
+</html>
